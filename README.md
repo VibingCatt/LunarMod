@@ -1,13 +1,14 @@
 ### LunarMod - Scratch built for coders
 
 Warning. Nothing here is nearly complete
-I plan on slowy making this project using the free time i have
+I plan on slowy making this project using the free time I have
 
-LunarMod is a open source online programming engine based off of the scratch 3.0 engine, turbowarp engine, and penguinmod engine
+LunarMod is a open source online programming engine based off of the Scratch 3.0 Engine, Turbowarp Engine, and PenguinMod Engine
 by using JS, Lua, CSS, and HTML, you can create full fledge games using very little coding no how
 
 Please if you want to support LunarMod give me suggestions and feedback
 
+**CURRENTLY STILL IN DEVELOPMENT**
 
 
 ```
@@ -23,3 +24,6 @@ Current Project Goals
 ```
 Founder - VibingCatt
 ```
+
+Project Source Code ---> <https://github.com/VibingCatt/LunarMod/>
+
