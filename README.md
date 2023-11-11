@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### LunarMod - Scratch built for coders
 
-## Getting Started
+Warning. Nothing here is nearly complete
+I plan on slowy making this project using the free time i have
 
-First, run the development server:
+LunarMod is a open source online programming engine based off of the scratch 3.0 engine, turbowarp engine, and penguinmod engine
+by using JS, Lua, CSS, and HTML, you can create full fledge games using very little coding no how
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Please if you want to support LunarMod give me suggestions and feedback
+
+
+
+```
+Current Project Goals
+- Get a basic UI
+- Begin working on custom HTML code inserts
+- begin working on JS code inserts
+- Begin work on custom coding prottocalls using lua
+- Finish up some issues
+- Expand UI and user options
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+Founder - VibingCatt
+```
