@@ -7,16 +7,22 @@
 <h1>This is a test</h1>
 <div>This is not a finshed product</div>
 <br>
-<button onclick="AddScript(prompt('HTML, or JS'))">Add Script</button>
+<button onclick="AddScript(html)">Add HTML Script</button>
+<button onclick="AddScript(js)">Add JS Script</button>
 <button onclick="Compile()">Compile</button>
 <iframe id='Frame' srcdoc="<p>Hello world!</p>"  width="90%" height="400"></iframe>
 </body>
 <script>
+let htmlnum = 1;
+let jsnum = 1;
     function AddScript(Type) {
+        if (type === 'html') {
        document.createElement("br")
-       const box = document.createElement("input");
+       eval(htmlnum) = document.createElement("input");
        box.id = "box";
        document.body.appendChild(box);
+       htmlnum = htmlnum + 1
+        }
     }
     function Compile() {
         document.getElementById("Frame").srcdoc = box.value;
