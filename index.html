@@ -9,7 +9,7 @@
 <br>
 <button onclick="AddScript(prompt('HTML, or JS'))">Add Script</button>
 <button onclick="Compile()">Compile</button>
-<iframe srcdoc="<p>Hello world!</p>"  width="300%" height="400"></iframe>
+<iframe id='Frame' srcdoc="<p>Hello world!</p>"  width="300%" height="400"></iframe>
 </body>
 <script>
     function AddScript(Type) {
@@ -17,5 +17,9 @@
        box.id = "box";
        document.body.appendChild(box);
     }
+    function Compile() {
+        document.getElementById("demo").innerHTML = "<body> It works! </body>";
+    }
+    
 </script>
 </html>
