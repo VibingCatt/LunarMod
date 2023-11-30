@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<title>LunarMod</title>
+<head>
+</head>
+<body>
+<h1>This is a test</h1>
+<div>This is not a finshed product</div>
+<br>
+<button onclick="AddScript(html)">Add HTML Script</button>
+<button onclick="AddScript(js)">Add JS Script</button>
+<button onclick="Compile()">Compile</button>
+<iframe id='Frame' srcdoc="<p>Hello world!</p>"  width="90%" height="400"></iframe>
+</body>
+<script>
+let htmlnum = 1;
+let jsnum = 1;
+    function AddScript(Type) {
+        if (Type === 'html') {
+       const html = document.createElement("input");
+       html.id = htmlnum;
+       document.body.appendChild(1);
+       htmlnum = htmlnum + 1
+        }
+    }
+    function Compile() {
+        document.getElementById("Frame").srcdoc = 1.value;
+    }
+    
+</script>
+</html>
